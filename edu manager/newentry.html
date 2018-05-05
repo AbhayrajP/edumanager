@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<title>New Entry</title>
+<link rel="stylesheet" href="css\newentry.css" />
+</head>
+<body>
+<h1 align="center" style="font-family:">NEW ENTRY</h1>
+<hr>
+<center>
+
+<form action="newentry.php" method="post">
+Student Name : <input type="text" name="stuname" placeholder="student name"><br><br>
+
+<ab>Roll.no</ab> : <style>ab{padding-left:40};</style><input type="text" name="rollno" placeholder="roll no."><br><br>
+Father's Name  : <input type="text" name="fname" placeholder="Father's name"><br><br>
+Mother's Name  : <input type="text" name="mname" placeholder="Mother's name"><br><br>
+Gender: <input type="radio" value="male" name="gender">Male <input type="radio" value="female" name="gender">Female<br><br>
+Quota: 
+<select name="quota" >
+<option value="null"></option>
+
+<option value="Counselling">Counselling</option>
+<option value="Management">Management</option>
+<option value="Others">Others</option>
+</select> <br><br>
+Yearly fees:<input type="text" name="yfees"><br><br>
+Student's contact no :<input type="text" name="stno"><br><br>
+<de>Father's/Guardian's contact no :<style>de{padding:105px}	</style><input type="text" name="fgno"></de><br><br>
+
+Address:<textarea  type="text" name="address"></textarea><br><br>
+
+
+
+<input type="submit" name="submit"><br><br>
+</form>
+
+</center>
+</body>
+</html>
